@@ -1,0 +1,101 @@
+body {
+  background-color: #bb9457;
+  margin: 0;
+  padding: 0;
+}
+
+
+p {
+  color: #ffe6a7;
+}
+
+.gallery-main {
+  background-color: #bb9457;
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #1f1f1d;
+  font-family: Georgia;
+  color: white;
+}
+
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f1d;
+  font-family: Georgia;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Menja boju na svetlije kada se prevuče*/
+li a:hover {
+  background-color: #eddd9e;
+}
+
+/* Slideshow slika prostora*/
+.slideshow {
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+}
+
+/* Tackice ispod slika slideshow-a*/
+.tackica {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #7e5608;
+  border-radius: 70%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Animacija za nestajanje */
+.nestaje {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header-menu {
+    width: 100%;
+  }
+}

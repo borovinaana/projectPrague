@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  text-decoration: none;
+  list-style: none;
+  background-color: #bb9457;
+  font-family: Georgia;
+
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #1f1f1d;
+  font-family: Georgia;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f1d;
+  font-family: Georgia;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Menja boju na svetlije kada se prevuče*/
+li a:hover {
+  background-color: #eddd9e;
+}
+
+
+.inner-footer {
+  margin: 0;
+  padding: 0;
+  background-color: #272727;
+}
+
+.outer-footer {
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  background-color: #ffe6a7;
+}
+
+@media (max-width: 700px) {
+  .outer-footer {
+    font-size: 15px;
+  }
+}
+
+.about {
+  width: 100%;
+  padding-bottom: 30px;
+  background-color: #bb9457;
+  ;
+
+}
+
+.main {
+  display: grid;
+  gap: 10px;
+
+}
+
+@media (min-width: 600px) {
+  .main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+.main2 {
+  display: grid;
+  gap: 10px;
+
+}
+
+@media (min-width: 600px) {
+  .main2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+.main3 {
+  display: grid;
+  gap: 10px;
+
+}
+
+@media (min-width: 600px) {
+  .main3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+.main4 {
+  display: grid;
+  gap: 10px;
+
+}
+
+@media (min-width: 600px) {
+  .main4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+.main-text h2 {
+  color: #6f1d1b;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.main-text p {
+  color: #ffe6a7;
+  margin-bottom: 10px;
+}
+
+.main2-text h2 {
+  color: #6f1d1b;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.main2-text p {
+  color: #ffe6a7;
+  margin-bottom: 10px;
+}
+
+.main3 {
+  color: #ffe6a7;
+  font-size: 1opx;
+  margin-bottom: 10px;
+}
+
+.main3 h2 {
+  color: #6f1d1b;
+  font-size: 30px;
+}
+
+.main4 {
+  color: #ffe6a7;
+  font-size: 1opx;
+  margin-bottom: 10px;
+}
+
+.main4 h2 {
+  color: #6f1d1b;
+  font-size: 30px;
+}
